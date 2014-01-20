@@ -31,7 +31,7 @@ def getRows(tbl, keys, where):
 	s = str()
 	for k in keys:
 		s += k + ','
-	s = 'SELECT ' + s[:-1] + ' FROM ' + tbl
+	s = 'SELECT  ' + s[:-1] + ' FROM ' + tbl
 	if where:
 		s += ' WHERE ' + where
 	db.execute(s)
