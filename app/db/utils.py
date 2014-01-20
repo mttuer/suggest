@@ -83,6 +83,6 @@ def unitTest():
     assert login(email, "please fail") == "Failed",  "Failed to stop bad login"
     assert deleteUser(email, password) is True, "Failed to cleanup"
 
-unitTest()
+#unitTest()
 
 

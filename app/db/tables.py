@@ -67,10 +67,11 @@ CREATE TABLE IF NOT EXISTS music (
     )
 """
 
-execute(users)
-execute(genres)
-execute(genreBlacklists)
-execute(songs)
-execute(activities)
-execute(music)
+def createAll():
+    execute(users)
+    execute(genres)
+    execute(genreBlacklists)
+    execute(songs)
+    execute(activities)
+    execute(music)
 
