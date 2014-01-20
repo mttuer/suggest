@@ -1,7 +1,7 @@
 import mysql.connector
 import json
 
-json_data=open('app/db/config.json')
+json_data=open('db/config.json')
 data = json.load(json_data)
 json_data.close()
 cur = None
