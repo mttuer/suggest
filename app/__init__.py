@@ -1,3 +1,4 @@
+import os
 from flask import Flask
 from db.tables import createAll
 app = Flask(__name__)
